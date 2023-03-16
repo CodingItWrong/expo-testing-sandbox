@@ -1,15 +1,15 @@
 name: Trigger Secure Detox Run
-  on:
-    push:
-      branches:
-        - main
-    pull_request:
-      types: [opened, synchronize, reopened]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
 
-  jobs:
-    test:
-      name: Test
-      runs-on: ubuntu-22.04
-      steps:
-        # just a placeholder to get a succeeding run
-        - uses: actions/checkout@v3
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-22.04
+    steps:
+      # just a placeholder to get a succeeding run
+      - uses: actions/checkout@v3
