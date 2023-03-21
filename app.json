@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codingitwrong.expo-testing-sandbox"
     },
     "android": {
       "adaptiveIcon": {
